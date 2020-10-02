@@ -14,9 +14,33 @@ I have a start pointer and end pointer.Start pointer starts from 0 and end point
 
 
 
-1)             2)               3)              4)                 5) Updated s to e   6)               7)
-s e              s   e            s     e          s - 3 - e                s e                 s   e            s -2- e
-1 0 0 0 1 0 0 1  1 0 0 0 1 0 0 1  1 0 0 0 1 0 0 1  1 0 0 0 1 0 0 1  1 0 0 0 1 0 0 1     1 0 0 0 1 0 0 1  1 0 0 0 1 0 0 1
+1)                                                                            
+s e                                                                               
+1 0 0 0 1 0 0 1  
+
+2) 
+s   e
+1 0 0 0 1 0 0 1  
+
+3)
+s     e
+1 0 0 0 1 0 0 1  
+
+4)
+s - 3 - e
+1 0 0 0 1 0 0 1  
+
+5) Updated s to e
+        s e
+1 0 0 0 1 0 0 1     
+
+6)
+        s   e
+1 0 0 0 1 0 0 1  
+
+7)Here we reach our end = length
+        s -2- e
+1 0 0 0 1 0 0 1
 
 
 So here our k is 2 and our distance between all 1s is 3, 2 which is <= k.
