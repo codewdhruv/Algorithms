@@ -8,8 +8,10 @@ void checkPrime(int n){
 }
 
 void main(){
+    FILE *fptr;
     int low,high;
-    scanf("%d%d",&low,&high);
+    fptr = fopen("input.txt", "r");
+    fscanf(fptr,"%d\t%d",&low,&high);
     printf("Prime numbere are:\n");
     for(int i=low;i<=high;i++){
         if(i<=1) continue;
