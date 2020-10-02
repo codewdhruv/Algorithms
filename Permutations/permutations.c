@@ -13,7 +13,7 @@ void permute(char *a,int l,int r)
  int i;
  if(l==r)
  {
-  printf("%d %s\n",k++,a);
+  printf("%d %s\n",++k,a);
   }
   else
   {
@@ -31,9 +31,8 @@ void permute(char *a,int l,int r)
    char s[28];
    FILE *f;
    f=fopen("input.txt","r");
-   fscanf(f,"%s",s);
+   fscanf(f,"%s",s);//read the string in input.txt
    fclose(f);
    int n=strlen(s);
-   printf("%d %s\n",k++,s);
    permute(s,0,n-1);
   }
