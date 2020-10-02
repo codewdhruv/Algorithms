@@ -1,0 +1,24 @@
+class Solution {
+    public boolean kLengthApart(int[] nums, int k) {
+        if (k > nums.length)
+            return false;
+        int length = nums.length;
+        int start = 0;
+        for (int end=1; end<length; end++) {
+            int distance = 0;
+            if (nums[start] == 1 && nums[end] == 1) {
+                    distance = end - start - 1;
+                    if (distance < k)
+                        return false;
+                    else {
+                        if (end != length) {
+                            start = end;
+                        }
+                    }
+                }
+            else if (nums[start] != 1)
+                start += 1;
+            }
+        return true;
+    }
+}
