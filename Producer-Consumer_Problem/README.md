@@ -1,11 +1,10 @@
-# C Program to implement Producer-Consumer Problem
+# Producer-Consumer Problem
 
 ## What is Producer-Consumer Problem
-    In ​ computing​ , the ​ producer–consumer problem​ (also known as the ​ bounded-buffer
-problem​ ) is a classic example of a multi-​ process​ ​ synchronization​ problem, proposed by
-Edsger W. Dijkstra​ .
-
-    The problem describes two processes, the producer and the consumer, who share a common, 
+In computing , the producer–consumer problem (also known as the bounded-buffer
+problem ) is a classic example of a multi-process synchronization problem, proposed by
+Edsger W. Dijkstra.
+The problem describes two processes, the producer and the consumer, who share a common, 
 fixed-size ​ buffer​ used as a ​ queue​ . The producer's job is to generate data, put it into 
 the buffer, and start again. At the same time, the consumer is consuming the data 
 (i.e., removing it from the buffer), one piece at a time. The problem is to make sure 
@@ -22,13 +21,12 @@ generalized to have multiple producers and consumers.
 
 ## Executing the code
 Navigate into the folder containing the code and run
-'''
-gcc -pthread PC.c
-
-'''
+```sh
+$ gcc -pthread PC.c
+```
 This will create an a.out executable in the same directory. Now execute
-'''
-./a.out
-'''
-This will run the program and write output to output file
+```
+$ ./a.out
+```
+This will run the program after taking input from the input file and write the output to the output file
 
