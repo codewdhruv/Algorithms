@@ -6,4 +6,4 @@ for i in arr:
         del d[i]
     else:
         d[i] = 1
-print(list(d.keys()))
+print( list(d.keys()))
