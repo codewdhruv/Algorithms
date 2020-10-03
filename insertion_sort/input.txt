@@ -1,0 +1,12 @@
+input array length(n) and array(a[]),Return the sorted array using insertion sort.
+
+
+Input: n=5
+       a[]=[3,4,2,1,9]
+Output:[1,2,3,4,9]
+
+
+Input: n=3
+       a[]=[8,7,6]
+Output: [6,7,8]
+
