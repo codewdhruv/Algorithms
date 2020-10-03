@@ -1,0 +1,41 @@
+Input Format
+
+First line contains L. Second line contains N, which is number of photos. Following N lines each contains two space separated integers W and H(width and height).
+
+
+Output Format
+
+Print appropriate text for each photo in a new line.
+
+
+Sample Input 1
+
+180
+3
+640 480
+120 300
+180 180
+
+Sample Output 1
+
+CROP IT
+UPLOAD ANOTHER
+ACCEPTED
+
+Sample Input 2
+
+180
+5
+640 480
+120 300
+180 180
+400 400
+200 180
+
+Sample Output 2
+
+CROP IT
+UPLOAD ANOTHER
+ACCEPTED
+ACCEPTED
+CROP IT
