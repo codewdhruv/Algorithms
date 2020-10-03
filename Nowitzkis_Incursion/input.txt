@@ -1,0 +1,16 @@
+Input Format
+
+An integer n, stating count of numbers. An array ar[], with numbers to be involved with the sinking theory
+
+Output Format
+
+Numbers printed in the order of the sinking theory
+
+Sample Input 1
+
+3
+1 2 3
+
+Sample Output 1
+
+3 2 1
