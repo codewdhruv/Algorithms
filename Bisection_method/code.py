@@ -34,4 +34,4 @@ else:
             a = c
         else:
             b = c
-    print("The root of the equation is : " + str(c))
+    print("The root of the equation obtained by bisection method is : " + str(c))
