@@ -1,0 +1,11 @@
+input1 => 
+[1,4,6,9,12,34,56]
+12
+Expected output =>
+Number 12 is found
+
+input2 => 
+[1,4,6,9,12,34,56]
+53
+Expected output =>
+Number 53 is not found
